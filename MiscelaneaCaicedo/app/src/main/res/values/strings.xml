@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MiscelaneaCaicedo</string>
+    <string name="Consultar">Consultar</string>
+
+    <string name="titActividad">Control e Ingreso de Ventas</string>
+
+    <string name="agno">Año</string>
+
+    <string name="mes">Mes</string>
+
+    <string name="guardar">Crear</string>
+
+    <string name="modificar">Modificar</string>
+
+    <string name="borracampos">Limpiar Campos</string>
+
+    <string name="eliminar">Eliminar</string>
+</resources>

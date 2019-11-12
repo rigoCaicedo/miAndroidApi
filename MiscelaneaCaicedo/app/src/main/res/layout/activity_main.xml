@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TableRow
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:hint="@string/agno"
+
+                android:id="@+id/agno"
+
+                android:inputType="number"/>
+
+            <EditText
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:hint="@string/mes"
+
+                android:id="@+id/mes"
+
+                android:inputType="number"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TableRow
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <Button
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="@string/guardar"
+
+                android:id="@+id/btnGuardar"
+
+                android:onClick="metodo"/>
+
+            <Button
+                android:id="@+id/btn_do"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Consultar"
+                />
+
+            <Button
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="@string/modificar"
+
+                android:id="@+id/btnModificar"
+
+                android:onClick="modificar"/>
+
+
+            <Button
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="@string/eliminar"
+
+                android:id="@+id/btnEliminar"
+
+                android:onClick="eliminardatos"/>
+
+
+
+
+
+
+        </TableRow>
+
+        <Button
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="@string/borracampos"
+
+            android:id="@+id/btnlimpiarCam"
+
+            android:onClick="metodoCons"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/resultado"/>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+</LinearLayout>
